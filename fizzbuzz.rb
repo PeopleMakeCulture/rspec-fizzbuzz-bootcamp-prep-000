@@ -8,11 +8,11 @@ def fizzbuzz(num)
   end
 
   if num % 3 != 0 && num % 5 == 0
-    puts "Buzz"
+    return "Buzz"
   end
 
   if num % 3 == 0 && num % 5 == 0
-    puts "FizzBuzz"
+    return "FizzBuzz"
   end
 
 end
